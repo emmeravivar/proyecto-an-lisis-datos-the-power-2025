@@ -83,3 +83,25 @@ El proyecto culmina en un **dashboard interactivo** publicado en Power BI Servic
 ---
 
 ## 📁 Organización del repositorio
+├── data
+│   ├── raw/                # Datos originales (Olist + states.csv)
+│   ├── interim/            # Datos intermedios
+│   └── processed/          # Dataset final (olist_final_dataset.xlsx)
+├── notebooks/              # 01 a 05 (carga, limpieza, EDA, estadístico, preparación dashboard)
+├── dashboard/
+│   ├── Dahsboard.pbix      # Archivo de Power BI
+│   └── screenshots/        # Capturas de pantalla
+├── README.md
+└── utils/                  # Funciones auxiliares
+
+---
+
+## ✅ Cumplimiento de requisitos
+- [x] **Dos conjuntos de datos en bruto** (Olist + States).  
+- [x] **Dataset final transformado** con >50.000 filas y >20 columnas.  
+- [x] **EDA y análisis estadístico** en Python (pandas, matplotlib).  
+- [x] **Dashboard operativo en Power BI**.  
+- [x] **Informe explicativo del análisis** incluido en README.  
+- [x] **Repositorio organizado y documentado**.  
+
+---
